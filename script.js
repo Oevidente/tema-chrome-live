@@ -5,10 +5,10 @@ let manifest = {
   manifest_version: 3,
   theme: {
     images: {
-      theme_frame: 'images/theme_frame.png',
-      theme_toolbar: 'images/theme_toolbar.png',
-      theme_tab_background: 'images/theme_tab_background.png',
-      theme_ntp_background: 'images/theme_ntp_background.png',
+      theme_frame: '',
+      theme_toolbar: '',
+      theme_tab_background: '',
+      theme_ntp_background: '',
     },
     colors: {
       frame: [166, 212, 12],
