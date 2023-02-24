@@ -49,7 +49,7 @@ searchbarColorInput.addEventListener('input', () => {
   const color = searchbarColorInput.value;
   searchbarElements.forEach((element) => {
     element.style.fill = color;
-    manifest.theme.colors.frame = hexToRgb(color.toString());
+    manifest.theme.colors.frame = hexToRgb(color);
     console.log(manifest.theme.colors.frame);
   });
 });
@@ -58,9 +58,9 @@ tabColorInput.addEventListener('input', () => {
   const color = tabColorInput.value;
   tabElements.forEach((element) => {
     element.style.fill = color;
-    manifest.theme.colors.ntp_text = hexToRgb(color.toString());
-    manifest.theme.colors.ntp_link = hexToRgb(color.toString());
-    manifest.theme.colors.ntp_background = hexToRgb(color.toString());
+    manifest.theme.colors.ntp_text = hexToRgb(color);
+    manifest.theme.colors.ntp_link = hexToRgb(color);
+    manifest.theme.colors.ntp_background = hexToRgb(color);
     console.log(manifest.theme.colors.ntp_text);
   });
 });
@@ -70,7 +70,7 @@ buttonColorInput.addEventListener('input', () => {
   buttonElements.forEach((element) => {
     element.style.fill = color;
 
-    manifest.theme.colors.button_background = hexToRgb(color.toString());
+    manifest.theme.colors.button_background = hexToRgb(color);
   });
 });
 
@@ -78,7 +78,7 @@ toolbarColorInput.addEventListener('input', () => {
   const color = toolbarColorInput.value;
   toolbarElements.forEach((element) => {
     element.style.fill = color;
-    manifest.theme.colors.toolbar = hexToRgb(color.toString());
+    manifest.theme.colors.toolbar = hexToRgb(color);
   });
 });
 
@@ -98,8 +98,8 @@ function hexToRgb(hex) {
   const g = parseInt(hex.substring(2, 4), 16);
   const b = parseInt(hex.substring(4, 6), 16);
 
-  // Return the RGB string
-  return `[${r}, ${g}, ${b}]`;
+  // Return the RGB array
+  return [r, g, b];
 }
 const downloadLink = document.querySelector('.download-btn');
 
@@ -107,7 +107,7 @@ searchbarColorInput.addEventListener('input', () => {
   const color = searchbarColorInput.value;
   searchbarElements.forEach((element) => {
     element.style.fill = color;
-    manifest.theme.colors.frame = hexToRgb(color.toString());
+    manifest.theme.colors.frame = hexToRgb(color);
     console.log(manifest.theme.colors.frame);
   });
 });
