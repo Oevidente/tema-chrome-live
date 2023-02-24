@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_2" data-name="Camada 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 244 15.77">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-2 {
+        letter-spacing: 0em;
+      }
+
+      .cls-3 {
+        font-family: Roboto-Regular, Roboto;
+        font-size: 14px;
+      }
+    </style>
+  </defs>
+  <g id="text">
+    <text id="ntp-link-text" class="cls-3" transform="translate(0 11.98)"><tspan class="cls-1" x="0" y="0">P</tspan><tspan class="cls-2" x="8.8" y="0">esquisar no Google ou digitar URL</tspan></text>
+  </g>
+</svg>

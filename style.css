@@ -1,0 +1,144 @@
+.frame {
+  position: absolute;
+  width: 1920px;
+  left: 0;
+  top: 0;
+}
+
+.tab-text {
+  position: absolute;
+  margin-top: 12px;
+  margin-left: 44px;
+  width: 122.0742px;
+  z-index: 1;
+  left: 0;
+}
+
+.toolbar {
+  position: absolute;
+  width: 1920px;
+  left: 0;
+}
+
+.tab-background-text {
+  position: absolute;
+  margin-top: 12px;
+  margin-left: 284px;
+  width: 42.9141px;
+  z-index: 1;
+  left: 0;
+}
+
+.background-tab {
+  position: absolute;
+  margin-top: 7px;
+  margin-left: 248px;
+  height: 56px;
+  width: 256px;
+  z-index: -1;
+  left: 0;
+}
+
+.buttons {
+  position: absolute;
+  margin-top: 7px;
+  margin-left: 15px;
+  z-index: 2;
+  width: 1884.9712px;
+  left: 0;
+}
+
+.buttons2 {
+  position: absolute;
+  margin-top: 7px;
+  margin-left: 15px;
+  z-index: 1;
+  width: 1884.9712px;
+  left: 0;
+}
+
+.ntp-link-text {
+  position: absolute;
+  margin-top: 46px;
+  margin-left: 175px;
+  height: 13.6514px;
+  width: 218.7739px;
+  z-index: 1;
+  left: 0;
+}
+
+.searchbar {
+  position: absolute;
+  margin-top: 38px;
+  margin-left: 140px;
+  width: 1644px;
+  left: 0;
+}
+
+.seletores {
+  display: flex;
+  flex-direction: column;
+}
+.seletores > div {
+  margin: 0 10px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.seletores > div > label {
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.searchbar-label {
+  display: flex;
+  flex-direction: column;
+}
+.text-label {
+  display: flex;
+  flex-direction: column;
+}
+.button-label {
+  display: flex;
+  flex-direction: column;
+}
+.toolbar-label {
+  display: flex;
+  flex-direction: column;
+}
+
+.espaco {
+  height: 100px;
+}
+body
+  :not(
+    .frame,
+    .tab-text,
+    .toolbar,
+    .buttons.ntp-link-text,
+    .searchbar,
+    .tab-background-text,
+    .background-tab,
+    script
+  ) {
+  display: flex;
+  align-items: space-between;
+  justify-content: center;
+}
+.download-btn {
+  /* position: absolute;
+  top: 180px; */
+  background-color: lightgrey;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 5px grey;
+  text-decoration: none;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  width: 195px;
+  margin: 10px auto;
+}
