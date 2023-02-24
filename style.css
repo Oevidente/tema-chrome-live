@@ -142,3 +142,19 @@ body
   width: 195px;
   margin: 10px auto;
 }
+article {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 700px;
+  margin-top: 75px !important;
+  display: flex;
+  flex-direction: column;
+}
+ul {
+  margin: 0 auto;
+  flex-direction: column;
+}
+strong {
+  margin: 0 6px;
+}
