@@ -31,6 +31,7 @@
 
   --font: 'Roboto', sans-serif;
 }
+
 @media (max-width: 900px) {
   body {
     overflow: hidden !important;

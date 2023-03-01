@@ -1,0 +1,5 @@
+@import url('m3.css');
+a:hover {
+  background-color: var(--on-primary) !important;
+  color: var(--primary);
+}
